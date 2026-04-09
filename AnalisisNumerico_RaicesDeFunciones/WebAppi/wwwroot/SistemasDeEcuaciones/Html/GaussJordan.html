@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistemas de Ecuaciones</title>
+    <link rel="stylesheet" href="../../../estilos.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Método de Gauss-Jordan</h2>
+
+        <label for="size">Cantidad de filas y columnas:</label>
+        <input type="number" id="size" value="3" min="2" max="10" />
+        <button onclick="generarMatriz()">Generar matriz</button>
+
+        <label for="tolerance">Tolerancia:</label>
+        <input type="number" id="tolerance" step="0.0001" value="0.0001" />
+
+        <label for="iterations">Iteraciones:</label>
+        <input type="number" id="iterations" value="100" />
+
+        <div id="matrix"></div>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <div class="resultado" id="resultado"></div>
+
+        <button onclick="window.location.href='../../unidad2.html'" class="btn secondary">← Volver</button>
+    </div>
+
+    <script src="../Js/GaussJordan.js?v=1"></script>
+</body>
+</html>
+

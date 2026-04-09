@@ -1,0 +1,16 @@
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\bin\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.deps.json
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\bin\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\bin\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.pdb
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.AssemblyInfo.cs
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.sourcelink.json
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\refint\AnalisisNumerico_AjusteDeCurva.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.pdb
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\ref\AnalisisNumerico_AjusteDeCurva.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\bin\Debug\net8.0\AnalisisNumerico_SistemasDeEcuaciones.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\bin\Debug\net8.0\AnalisisNumerico_SistemasDeEcuaciones.pdb
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\AnalisisNumerico_AjusteDeCurva.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_AjusteDeCurva\obj\Debug\net8.0\Analisis.40E6BED1.Up2Date

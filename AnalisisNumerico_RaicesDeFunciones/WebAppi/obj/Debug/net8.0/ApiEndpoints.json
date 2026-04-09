@@ -1,0 +1,322 @@
+[
+  {
+    "ContainingType": "WebAppi.Controllers.IntegracionController",
+    "Method": "CalcularSimpsonCombinado",
+    "RelativePath": "api/Integracion/simpson-combinado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_IntegracionNuemrica.Simpson13MultipleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.IntegracionController",
+    "Method": "CalcularSimpson13Multiple",
+    "RelativePath": "api/Integracion/simpson13-multiple",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_IntegracionNuemrica.Simpson13MultipleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.IntegracionController",
+    "Method": "CalcularSimpson13Simple",
+    "RelativePath": "api/Integracion/simpson13-simple",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_IntegracionNuemrica.TrapecioSimpleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.IntegracionController",
+    "Method": "CalcularSimpson38",
+    "RelativePath": "api/Integracion/simpson38",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_IntegracionNuemrica.TrapecioSimpleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.IntegracionController",
+    "Method": "CalcularTrapecioMultiple",
+    "RelativePath": "api/Integracion/trapecio-multiple",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_IntegracionNuemrica.TrapecioMultipleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.IntegracionController",
+    "Method": "CalcularTrapecioSimple",
+    "RelativePath": "api/Integracion/trapecio-simple",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_IntegracionNuemrica.TrapecioSimpleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.MetodosAbiertosController",
+    "Method": "NewtonRaphson",
+    "RelativePath": "api/MetodosAbiertos/newton-raphson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_RaicesDeFunciones.MetodoNewtonRapshonRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnalisisNumerico_RaicesDeFunciones.ResultadoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.MetodosAbiertosController",
+    "Method": "Secante",
+    "RelativePath": "api/MetodosAbiertos/secante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_RaicesDeFunciones.MetodoCerradoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnalisisNumerico_RaicesDeFunciones.ResultadoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.MetodosCerradosController",
+    "Method": "Biseccion",
+    "RelativePath": "api/MetodosCerrados/biseccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_RaicesDeFunciones.MetodoCerradoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnalisisNumerico_RaicesDeFunciones.ResultadoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.MetodosCerradosController",
+    "Method": "ReglaFalsa",
+    "RelativePath": "api/MetodosCerrados/regla-falsa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_RaicesDeFunciones.MetodoCerradoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnalisisNumerico_RaicesDeFunciones.ResultadoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.RegresionLinealController",
+    "Method": "Calcular",
+    "RelativePath": "api/RegresionLineal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_AjusteDeCurva.RegresionLinealRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnalisisNumerico_AjusteDeCurva.RegresionLinealResultado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.RegresionLinealController",
+    "Method": "RecalcularR2",
+    "RelativePath": "api/RegresionLineal/recalcular",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_AjusteDeCurva.RegresionModificadaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.RegresionPolinomialController",
+    "Method": "Calcular",
+    "RelativePath": "api/RegresionPolinomial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AnalisisNumerico_AjusteDeCurva.RegresionPolinomialRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnalisisNumerico_AjusteDeCurva.RegresionPolinomialResultado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.SistemasEcuacionesController",
+    "Method": "ResolverGaussJordan",
+    "RelativePath": "api/sistemas/gaussjordan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_SistemasDeEcuaciones.RequestGaussJordan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAppi.Controllers.SistemasEcuacionesController",
+    "Method": "ResolverGaussSeidel",
+    "RelativePath": "api/sistemas/gaussseidel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AnalisisNumerico_SistemasDeEcuaciones.RequestGaussJordan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

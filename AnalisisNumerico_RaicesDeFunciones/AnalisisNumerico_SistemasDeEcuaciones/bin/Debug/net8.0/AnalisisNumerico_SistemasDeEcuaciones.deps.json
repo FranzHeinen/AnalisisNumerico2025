@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AnalisisNumerico_SistemasDeEcuaciones/1.0.0": {
+        "runtime": {
+          "AnalisisNumerico_SistemasDeEcuaciones.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnalisisNumerico_SistemasDeEcuaciones/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

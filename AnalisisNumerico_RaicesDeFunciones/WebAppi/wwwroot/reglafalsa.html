@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Regla Falsa</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- GeoGebra -->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <!-- MathJax para mostrar f(x) en LaTeX -->
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>Método de Regla Falsa</h1>
+
+    <div class="layout">
+        <!-- Izquierda: formulario (ids iguales a los tuyos) -->
+        <form id="form-reglafalsa">
+            <label>Función:</label>
+            <input type="text" id="funcion" required>
+
+            <label>Xi:</label>
+            <input type="number" id="xi" step="any" required>
+
+            <label>Xd:</label>
+            <input type="number" id="xd" step="any" required>
+
+            <label>Máx Iteraciones:</label>
+            <input type="number" id="maxIteraciones" value="100" required>
+
+            <label>Tolerancia:</label>
+            <input type="number" id="tolerancia" step="any" value="0.0001" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <!-- Derecha: f(x) bonita + resultados + gráfica -->
+        <section class="panel">
+            <!-- f(x) renderizada -->
+            <div class="fx-card">
+                <span class="fx-label">f(x) =</span>
+                <span id="fx-pretty">\( \)</span>
+            </div>
+
+            <h2>Resultado:</h2>
+            <div class="res-card">
+                <div class="res-header">
+                    <span>Resultado</span>
+                    <span class="badge">Regla Falsa</span>
+                </div>
+                <div id="res-grid" class="res-grid"></div>
+            </div>
+
+            <h2>Gráfica</h2>
+            <div id="ggb-element" class="graph"></div>
+        </section>
+    </div>
+
+    <button onclick="location.href='Unidad1.html'">Regresar</button>
+
+    <script src="Js/reglafalsa.js?v=3"></script>
+</body>
+</html>

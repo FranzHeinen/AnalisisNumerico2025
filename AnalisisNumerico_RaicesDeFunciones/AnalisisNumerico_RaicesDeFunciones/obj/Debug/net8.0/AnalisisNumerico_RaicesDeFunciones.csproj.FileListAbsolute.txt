@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\bin\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.deps.json
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\bin\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\bin\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.pdb
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\bin\Debug\net8.0\Calculus.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.AssemblyInfo.cs
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.sourcelink.json
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\Analisis.B2937178.Up2Date
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\refint\AnalisisNumerico_RaicesDeFunciones.dll
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\AnalisisNumerico_RaicesDeFunciones.pdb
+C:\Users\Usuario\Documents\GitHub\AnalisiNumerico-2025-Heinen-Ambort\AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones\obj\Debug\net8.0\ref\AnalisisNumerico_RaicesDeFunciones.dll

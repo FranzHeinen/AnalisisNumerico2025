@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Newton Raphson</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- GeoGebra -->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <!-- MathJax para renderizar f(x) en LaTeX -->
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>Método de Newton Raphson</h1>
+
+    <div class="layout">
+        <!-- Izquierda: formulario -->
+        <form id="form-newtonraphson">
+            <label>Función:</label>
+            <input type="text" id="funcion" required>
+
+            <label>Xi</label>
+            <input type="number" id="xi" step="any" required>
+
+            <label>Máx Iteraciones:</label>
+            <input type="number" id="maxIteraciones" value="100" required>
+
+            <label>Tolerancia:</label>
+            <input type="number" id="tolerancia" step="any" value="0.0001" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <!-- Derecha: f(x) bonita + resultado + gráfica -->
+        <section class="panel">
+            <!-- f(x) en LaTeX -->
+            <div class="fx-card">
+                <span class="fx-label">f(x) =</span>
+                <span id="fx-pretty">\( \)</span>
+            </div>
+
+            <h2>Resultado:</h2>
+            <div class="res-card">
+                <div class="res-header">
+                    <span>Resultado</span>
+                    <span class="badge">Newton–Raphson</span>
+                </div>
+                <div id="res-grid" class="res-grid"></div>
+            </div>
+
+            <h2>Gráfica</h2>
+            <div id="ggb-element" class="graph"></div>
+        </section>
+    </div>
+
+    <button onclick="location.href='Unidad1.html'">Regresar</button>
+
+    <!-- OJO a las mayúsculas/minúsculas del path en Linux -->
+    <script src="Js/newtonraphson.js?v=2"></script>
+</body>
+</html>

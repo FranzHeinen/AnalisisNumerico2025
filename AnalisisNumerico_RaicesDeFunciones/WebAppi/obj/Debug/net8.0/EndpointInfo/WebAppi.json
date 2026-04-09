@@ -1,0 +1,921 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebAppi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Integracion/trapecio-simple": {
+      "post": {
+        "tags": [
+          "Integracion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Integracion/trapecio-multiple": {
+      "post": {
+        "tags": [
+          "Integracion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioMultipleRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioMultipleRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioMultipleRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Integracion/simpson13-simple": {
+      "post": {
+        "tags": [
+          "Integracion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Integracion/simpson13-multiple": {
+      "post": {
+        "tags": [
+          "Integracion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Simpson13MultipleRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Simpson13MultipleRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Simpson13MultipleRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Integracion/simpson38": {
+      "post": {
+        "tags": [
+          "Integracion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrapecioSimpleRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Integracion/simpson-combinado": {
+      "post": {
+        "tags": [
+          "Integracion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Simpson13MultipleRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Simpson13MultipleRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Simpson13MultipleRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MetodosAbiertos/newton-raphson": {
+      "post": {
+        "tags": [
+          "MetodosAbiertos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoNewtonRapshonRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoNewtonRapshonRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoNewtonRapshonRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MetodosAbiertos/secante": {
+      "post": {
+        "tags": [
+          "MetodosAbiertos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MetodosCerrados/biseccion": {
+      "post": {
+        "tags": [
+          "MetodosCerrados"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MetodosCerrados/regla-falsa": {
+      "post": {
+        "tags": [
+          "MetodosCerrados"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MetodoCerradoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultadoDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/RegresionLineal": {
+      "post": {
+        "tags": [
+          "RegresionLineal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionLinealRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionLinealRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionLinealRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegresionLinealResultado"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegresionLinealResultado"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegresionLinealResultado"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/RegresionLineal/recalcular": {
+      "post": {
+        "tags": [
+          "RegresionLineal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionModificadaRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionModificadaRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionModificadaRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/RegresionPolinomial": {
+      "post": {
+        "tags": [
+          "RegresionPolinomial"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionPolinomialRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionPolinomialRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegresionPolinomialRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegresionPolinomialResultado"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegresionPolinomialResultado"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegresionPolinomialResultado"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sistemas/gaussjordan": {
+      "post": {
+        "tags": [
+          "SistemasEcuaciones"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestGaussJordan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestGaussJordan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestGaussJordan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sistemas/gaussseidel": {
+      "post": {
+        "tags": [
+          "SistemasEcuaciones"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestGaussJordan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestGaussJordan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestGaussJordan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "MetodoCerradoRequest": {
+        "type": "object",
+        "properties": {
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "xi": {
+            "type": "number",
+            "format": "double"
+          },
+          "xd": {
+            "type": "number",
+            "format": "double"
+          },
+          "maxIteraciones": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tolerancia": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MetodoNewtonRapshonRequest": {
+        "type": "object",
+        "properties": {
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "xi": {
+            "type": "number",
+            "format": "double"
+          },
+          "maxIteraciones": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tolerancia": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegresionLinealRequest": {
+        "type": "object",
+        "properties": {
+          "puntos": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "format": "double"
+              }
+            },
+            "nullable": true
+          },
+          "tolerancia": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegresionLinealResultado": {
+        "type": "object",
+        "properties": {
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "correlacion": {
+            "type": "number",
+            "format": "double"
+          },
+          "efectividadAjuste": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegresionModificadaRequest": {
+        "type": "object",
+        "properties": {
+          "puntosCargados": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "format": "double"
+              }
+            },
+            "nullable": true
+          },
+          "funcionModificada": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegresionPolinomialRequest": {
+        "type": "object",
+        "properties": {
+          "puntos": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "format": "double"
+              }
+            },
+            "nullable": true
+          },
+          "grado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tolerancia": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegresionPolinomialResultado": {
+        "type": "object",
+        "properties": {
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "correlacion": {
+            "type": "number",
+            "format": "double"
+          },
+          "efectividadAjuste": {
+            "type": "string",
+            "nullable": true
+          },
+          "coeficientes": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "format": "double"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestGaussJordan": {
+        "type": "object",
+        "properties": {
+          "a": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "format": "double"
+              }
+            },
+            "nullable": true
+          },
+          "b": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "format": "double"
+            },
+            "nullable": true
+          },
+          "tolerancia": {
+            "type": "number",
+            "format": "double"
+          },
+          "iteraciones": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResultadoDTO": {
+        "type": "object",
+        "properties": {
+          "xr": {
+            "type": "number",
+            "format": "double"
+          },
+          "iteraciones": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "error": {
+            "type": "number",
+            "format": "double"
+          },
+          "converge": {
+            "type": "boolean"
+          },
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "metodo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Simpson13MultipleRequest": {
+        "type": "object",
+        "properties": {
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "xi": {
+            "type": "number",
+            "format": "double"
+          },
+          "xd": {
+            "type": "number",
+            "format": "double"
+          },
+          "n": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TrapecioMultipleRequest": {
+        "type": "object",
+        "properties": {
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "xi": {
+            "type": "number",
+            "format": "double"
+          },
+          "xd": {
+            "type": "number",
+            "format": "double"
+          },
+          "n": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TrapecioSimpleRequest": {
+        "type": "object",
+        "properties": {
+          "funcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "xi": {
+            "type": "number",
+            "format": "double"
+          },
+          "xd": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

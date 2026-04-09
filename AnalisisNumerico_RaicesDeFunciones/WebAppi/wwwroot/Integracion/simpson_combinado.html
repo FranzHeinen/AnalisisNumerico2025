@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Método de Simpson Combinado</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+</head>
+<body>
+    <h1>Método de Simpson Combinado (1/3 y 3/8)</h1>
+
+    <div class="layout">
+        <form id="form-simpson-combinado">
+            <h2>Datos de Entrada</h2>
+            <label for="funcion">F(x):</label>
+            <input type="text" id="funcion" value="1/(x+0.5) + (1/4)*x^2" required>
+
+            <label for="xi">Xi:</label>
+            <input type="number" id="xi" step="any" value="0" required>
+
+            <label for="xd">Xd:</label>
+            <input type="number" id="xd" step="any" value="3" required>
+
+            <label for="n">Cantidad de subintervalos (n):</label>
+            <input type="number" id="n" value="25" required>
+
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+
+        <section class="panel">
+            <h2>Resultado</h2>
+            <div class="res-card">
+                <div class="res-grid" style="grid-template-columns: 1fr;">
+                    <div class="stat">
+                        <div class="label">Área Aproximada</div>
+                        <div class="value" id="area-resultado"> — </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Gráfica</h2>
+            <div id="ggb-element" class="graph"></div>
+        </section>
+    </div>
+
+    <button onclick="location.href='../unidad4.html'">Regresar</button>
+
+    <script src="simpson_combinado.js"></script>
+</body>
+</html>

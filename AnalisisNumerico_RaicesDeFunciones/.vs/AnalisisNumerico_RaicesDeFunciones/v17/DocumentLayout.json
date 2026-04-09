@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|c:\\users\\usuario\\documents\\github\\analisinumerico-2025-heinen-ambort\\analisisnumerico_raicesdefunciones\\webappi\\wwwroot\\integracion\\trapecio_multiple.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|solutionrelative:webappi\\wwwroot\\integracion\\trapecio_multiple.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|c:\\users\\usuario\\documents\\github\\analisinumerico-2025-heinen-ambort\\analisisnumerico_raicesdefunciones\\webappi\\wwwroot\\integracion\\trapecio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|solutionrelative:webappi\\wwwroot\\integracion\\trapecio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|c:\\users\\usuario\\documents\\github\\analisinumerico-2025-heinen-ambort\\analisisnumerico_raicesdefunciones\\webappi\\wwwroot\\integracion\\simpson38.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|solutionrelative:webappi\\wwwroot\\integracion\\simpson38.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|c:\\users\\usuario\\documents\\github\\analisinumerico-2025-heinen-ambort\\analisisnumerico_raicesdefunciones\\webappi\\wwwroot\\integracion\\simpson13_simple.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|solutionrelative:webappi\\wwwroot\\integracion\\simpson13_simple.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|c:\\users\\usuario\\documents\\github\\analisinumerico-2025-heinen-ambort\\analisisnumerico_raicesdefunciones\\webappi\\wwwroot\\integracion\\simpson13_multiple.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|solutionrelative:webappi\\wwwroot\\integracion\\simpson13_multiple.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|c:\\users\\usuario\\documents\\github\\analisinumerico-2025-heinen-ambort\\analisisnumerico_raicesdefunciones\\webappi\\wwwroot\\integracion\\simpson_combinado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{05234E10-880D-40BD-8C1A-C4AEDD747156}|WebAppi\\WebAppi.csproj|solutionrelative:webappi\\wwwroot\\integracion\\simpson_combinado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "trapecio_multiple.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\trapecio_multiple.js",
+              "RelativeDocumentMoniker": "WebAppi\\wwwroot\\Integracion\\trapecio_multiple.js",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\trapecio_multiple.js",
+              "RelativeToolTip": "WebAppi\\wwwroot\\Integracion\\trapecio_multiple.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-30T18:42:38.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "trapecio.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\trapecio.js",
+              "RelativeDocumentMoniker": "WebAppi\\wwwroot\\Integracion\\trapecio.js",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\trapecio.js",
+              "RelativeToolTip": "WebAppi\\wwwroot\\Integracion\\trapecio.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-30T18:42:34.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "simpson38.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson38.js",
+              "RelativeDocumentMoniker": "WebAppi\\wwwroot\\Integracion\\simpson38.js",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson38.js",
+              "RelativeToolTip": "WebAppi\\wwwroot\\Integracion\\simpson38.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-30T18:42:30.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "simpson13_simple.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson13_simple.js",
+              "RelativeDocumentMoniker": "WebAppi\\wwwroot\\Integracion\\simpson13_simple.js",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson13_simple.js",
+              "RelativeToolTip": "WebAppi\\wwwroot\\Integracion\\simpson13_simple.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-30T18:42:19.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "simpson13_multiple.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson13_multiple.js",
+              "RelativeDocumentMoniker": "WebAppi\\wwwroot\\Integracion\\simpson13_multiple.js",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson13_multiple.js",
+              "RelativeToolTip": "WebAppi\\wwwroot\\Integracion\\simpson13_multiple.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-30T18:42:08.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "simpson_combinado.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson_combinado.js",
+              "RelativeDocumentMoniker": "WebAppi\\wwwroot\\Integracion\\simpson_combinado.js",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\AnalisiNumerico-2025-Heinen-Ambort\\AnalisisNumerico_RaicesDeFunciones\\WebAppi\\wwwroot\\Integracion\\simpson_combinado.js",
+              "RelativeToolTip": "WebAppi\\wwwroot\\Integracion\\simpson_combinado.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-30T18:33:21.855Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

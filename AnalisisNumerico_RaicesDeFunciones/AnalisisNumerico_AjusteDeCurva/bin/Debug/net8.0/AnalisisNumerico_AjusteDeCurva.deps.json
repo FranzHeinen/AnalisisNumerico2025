@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AnalisisNumerico_AjusteDeCurva/1.0.0": {
+        "dependencies": {
+          "AnalisisNumerico_SistemasDeEcuaciones": "1.0.0"
+        },
+        "runtime": {
+          "AnalisisNumerico_AjusteDeCurva.dll": {}
+        }
+      },
+      "AnalisisNumerico_SistemasDeEcuaciones/1.0.0": {
+        "runtime": {
+          "AnalisisNumerico_SistemasDeEcuaciones.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnalisisNumerico_AjusteDeCurva/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AnalisisNumerico_SistemasDeEcuaciones/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

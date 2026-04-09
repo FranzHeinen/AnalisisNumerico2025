@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalisisNumerico_RaicesDeFunciones", "AnalisisNumerico_RaicesDeFunciones\AnalisisNumerico_RaicesDeFunciones.csproj", "{41EC99B1-0DBA-40DE-8B3B-5A59F7BFC9A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppi", "WebAppi\WebAppi.csproj", "{05234E10-880D-40BD-8C1A-C4AEDD747156}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalisisNumerico_SistemasDeEcuaciones", "AnalisisNumerico_SistemasDeEcuaciones\AnalisisNumerico_SistemasDeEcuaciones.csproj", "{C8F19D8B-F62C-42B6-8202-8A9053C2A3AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalisisNumerico_AjusteDeCurva", "AnalisisNumerico_AjusteDeCurva\AnalisisNumerico_AjusteDeCurva.csproj", "{648DAD4B-D367-48E9-8738-C4F1D72E9173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalisisNumerico_IntegracionNuemrica", "AnalisisNumerico_IntegracionNuemrica\AnalisisNumerico_IntegracionNuemrica.csproj", "{5110ADDE-AD04-4CA0-A58A-4836567B00E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41EC99B1-0DBA-40DE-8B3B-5A59F7BFC9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EC99B1-0DBA-40DE-8B3B-5A59F7BFC9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EC99B1-0DBA-40DE-8B3B-5A59F7BFC9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EC99B1-0DBA-40DE-8B3B-5A59F7BFC9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05234E10-880D-40BD-8C1A-C4AEDD747156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05234E10-880D-40BD-8C1A-C4AEDD747156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05234E10-880D-40BD-8C1A-C4AEDD747156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05234E10-880D-40BD-8C1A-C4AEDD747156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F19D8B-F62C-42B6-8202-8A9053C2A3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F19D8B-F62C-42B6-8202-8A9053C2A3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F19D8B-F62C-42B6-8202-8A9053C2A3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F19D8B-F62C-42B6-8202-8A9053C2A3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648DAD4B-D367-48E9-8738-C4F1D72E9173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648DAD4B-D367-48E9-8738-C4F1D72E9173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648DAD4B-D367-48E9-8738-C4F1D72E9173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648DAD4B-D367-48E9-8738-C4F1D72E9173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5110ADDE-AD04-4CA0-A58A-4836567B00E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5110ADDE-AD04-4CA0-A58A-4836567B00E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5110ADDE-AD04-4CA0-A58A-4836567B00E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5110ADDE-AD04-4CA0-A58A-4836567B00E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAB0A6E0-6107-4858-82C6-BE0FAA74CCCC}
+	EndGlobalSection
+EndGlobal
