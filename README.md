@@ -1,8 +1,6 @@
 # 🔢 Análisis Numérico: Resolución de Funciones y Sistemas
 
-Este repositorio contiene una potente herramienta computacional desarrollada en **.NET 8** diseñada para resolver problemas complejos de ingeniería mediante métodos numéricos. La solución expone diversos algoritmos matemáticos a través de una Web API y una interfaz gráfica interactiva.
-
-🌐 **[Ver Interfaz del Proyecto (Demo Online)](https://FranzHeinen.github.io/AnalisisNumerico2025/)** *(Nota: La demo permite explorar el diseño de la interfaz. Para realizar cálculos, se requiere ejecutar el servidor .NET localmente).*
+Este repositorio contiene una herramienta desarrollada en **.NET 8** diseñada para resolver problemas complejos de ingeniería mediante métodos numéricos. La solución expone diversos algoritmos matemáticos a través de una Web API y una interfaz gráfica interactiva.
 
 ---
 
