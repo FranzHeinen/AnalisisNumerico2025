@@ -23,5 +23,10 @@ Este repositorio contiene una potente herramienta computacional desarrollada en 
 ## 📁 Estructura del Proyecto
 El proyecto está modularizado por áreas de estudio:
 * `/Controllers`: Exposición de los métodos mediante endpoints REST.
+
+* ## 👥 Equipo de Desarrollo
+* [Franz Heinen](https://github.com/FranzHeinen)
+* [Francisco Ambort](https://github.com/FranAmbort)
+
 * `/wwwroot`: Interfaz web interactiva para la carga de datos y visualización de resultados.
 * `/AnalisisNumerico_...`: Librerías de clases que contienen la lógica pura de los algoritmos.
